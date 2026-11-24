@@ -1,4 +1,4 @@
 function number() {
-    alert (hassan);
+    alert ("Hello world!");
     
 }
