@@ -1,0 +1,4 @@
+function number() {
+    alert (hassan);
+    
+}
