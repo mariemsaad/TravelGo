@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: rgb(19 78 74);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+header img {
+    width: 150px;
+    height: auto;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+header button {
+    background: transparent;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 25px;
+    cursor: pointer;
+}
+
+.heroSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    background-image: url(/images/pierre-louvre-bg.jpg);
+
+    height: 450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    filter: brightness(60%);
+}
+
+.heroSection h1,
+p {
+    color: #134e4a;
+}
+
+.heroSection p {
+    margin-top: 10px;
+}
+
+.heroSection h1 {
+    margin-top: 20px;
+
+}
+
+.heroSection button {
+    margin-top: 10px;
+    background-color: rgb(19 78 74);
+    padding: 8px 40px;
+    color: #ffffff;
+}
+
+.popularDestinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}
+.popularDestinations .card h1{
+    align-items: center;
+}
+.popularDestinations .card img {
+    width: 390px;
+    height: auto;
+}
